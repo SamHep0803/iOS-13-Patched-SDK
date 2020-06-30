@@ -1,0 +1,14 @@
+---
+archs:                 [ armv6, armv7, armv7s, arm64 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/TestFlightCore.framework/TestFlightCore"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv6, armv7, armv7s, arm64 ]
+    objc-classes:         [ _TFBetaAppLaunchScreenProvider,
+                            _TFBetaApplicationProxy, _TFBetaLaunchHandle,
+                            _TFBetaLaunchHandleConfiguration, _TFFeedbackHandle,
+                            _TFFeedbackHandleConfiguration, _TFFeedbackSession,
+                            _TFLocale ]
+...

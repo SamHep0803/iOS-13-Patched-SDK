@@ -1,0 +1,15 @@
+---
+archs:                 [ armv6, armv7, armv7s, arm64 ]
+platform:              ios-simulator
+install-name:          "/System/Library/PrivateFrameworks/Pegasus.framework/Pegasus"
+current-version:       1
+compatibility-version: 1
+exports:
+  - archs:                [ armv6, armv7, armv7s, arm64 ]
+    symbols:              [ _PGPegasusErrorDomain,
+                            _PGPictureInPictureProxyPictureInPictureActiveChangedNotification ]
+    objc-classes:         [ _PGPictureInPictureApplication,
+                            _PGPictureInPictureController,
+                            _PGPictureInPictureProxy,
+                            _PGPictureInPictureViewController ]
+...
