@@ -8,5 +8,5 @@ For use with theos (assuming you have set up enviroment variables for theos):
     curl -LO https://github.com/SamHep0803/iOS-13-Patched-SDK/archive/master.zip
     TMP=$(mktemp -d)
     unzip master.zip -d $TMP
-    mv $TMP/iOS-13-Patched-SDK/*.sdk $THEOS/sdks
+    mv $TMP/iOS-13-Patched-SDK-master/*.sdk $THEOS/sdks
     rm -r master.zip $TMP
