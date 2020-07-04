@@ -1,0 +1,13 @@
+---
+archs:                 [ armv6, armv7, armv7s, arm64 ]
+platform:              ios
+install-name:          "/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerImplLazy.dylib"
+current-version:       902.9.66
+compatibility-version: 1
+exports:
+  - archs:                [ armv6, armv7, armv7s, arm64 ]
+    symbols:              [ ___clang_metalfe_GPUCompiler_compileFromSourceToBufferWrapper,
+                            ___clang_metalfe_GPUCompiler_compileFromSourceWrapper,
+                            ___clang_metalfe_GPUCompiler_linkToBufferWrapper,
+                            ___clang_metalfe_GPUCompiler_linkWrapper ]
+...
